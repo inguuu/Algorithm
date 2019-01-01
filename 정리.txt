@@ -13,8 +13,6 @@
 
 
 
-https://canna90.tistory.com/41
-
 ===== 배열 ======
 
 sizeof(s)/sizeof(int)
