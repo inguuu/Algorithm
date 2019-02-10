@@ -13,16 +13,6 @@
 
 
 
-===== 배열 ======
-
-sizeof(s)/sizeof(int)
-
-
-===== 정렬 =======
-정렬: sort(v.begin(), v.end());,sort(s, s+3);
-
-
-
 ===== Queue  ========= 
 
 선언: queue<int> q; queue<pair<int,int>> q;
