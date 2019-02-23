@@ -13,13 +13,6 @@
 
 
 
-===== Queue  ========= 
-
-선언: queue<int> q; queue<pair<int,int>> q;
-추가/삭제: q.push() q.pop()      q.push({a,b})
-맨앞/뒤 q.front(); q.back();     q.front().first();
-빈공간 q.empty() ///true false
-사이즈 q.size() 
 
 
 우선순위 큐를 쓰자 priority_queue<int>pq
