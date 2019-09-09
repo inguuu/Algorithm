@@ -1,0 +1,49 @@
+===== Vector ========
+
+선언: vector <int> v;
+추가/삭제: v.push_back(10), pop_back()//마지막 원소 버리기
+크기: v.size
+
+첫/끝: v.front(), v.back();
+접근: v.at(1);
+비었나: v.empty();
+초기화: v.clear();
+
+
+삭제: v.erase(1), v.erase(1,5)// 범위 삭제
+삽입: v.insert(위치,value); 위치는 iter이나 begin등으로 정의
+사이즈 : v.resize(3); 또는 v.resize(3,0)//0으로 초기화 까지 
+
+
+
+https://canna90.tistory.com/41
+
+===== 배열 ======
+
+sizeof(s)/sizeof(int)
+
+
+===== 정렬 =======
+정렬: sort(v.begin(), v.end());,sort(s, s+3);
+
+
+
+===== Queue  ========= 
+
+선언: queue<int> q; queue<pair<int,int>> q;
+추가/삭제: q.push() q.pop()      q.push({a,b})
+맨앞/뒤 q.front(); q.back();     q.front().first();
+빈공간 q.empty() ///true false
+사이즈 q.size() 
+
+
+우선순위 큐를 쓰자 priority_queue<int>pq
+====================
+
+주석 ctrl k c  해제 ctrl k u 
+
+
+
+===========================
+테스트케이스 t의 범위가 주어지지 않으면 
+그냥 포문으로 마지막만 엔터로 하자
