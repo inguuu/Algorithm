@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+#include <algorithm>
+#include <vector>
+using namespace std;
 int bin(int s,int e,int arr[],int val){
   
   if(s>e){
@@ -23,6 +25,10 @@ int bin(int s,int e,int arr[],int val){
 }
 
 int main() {
+
+   vector<pair<int,int>> v;
+   v.push_back(pair(1,2));
+   printf("%d"v.front();
 
   int arr[100001];
   int n,q;
