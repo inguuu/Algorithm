@@ -10,9 +10,6 @@
 초기화: v.clear();
 
 
-삭제: v.erase(1), v.erase(1,5)// 범위 삭제
-삽입: v.insert(위치,value); 위치는 iter이나 begin등으로 정의
-사이즈 : v.resize(3); 또는 v.resize(3,0)//0으로 초기화 까지 
 
 
 
